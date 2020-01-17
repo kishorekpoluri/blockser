@@ -1,0 +1,39 @@
+<style>
+
+.app-title{
+  margin-left: 10px;
+}
+
+.wrapper {
+  display: flex;
+  height: 100%;
+  flex-flow: column;
+}
+
+  .toolbar {
+    min-height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+    position:relative;
+    top:0px;
+    width:100%;
+    z-index:999;
+  }
+
+  .content {
+    flex-grow:1;
+    overflow:auto;
+  }
+
+</style>
+<div class="wrapper">
+  <div class="toolbar" role="banner">
+    <span class="app-title">{{title}}</span>
+  </div>
+  <div class="content" role="main">
+    <router-outlet></router-outlet>
+  </div>
+</div>
