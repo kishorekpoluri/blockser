@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { BlockService } from '../service/block.service';
 import { MatTableDataSource } from '@angular/material/table';
-import { Block } from '../model/Block.model';
+import { Block } from '../model/block.model';
 import {animate, state, style, transition, trigger} from '@angular/animations';
 @Component({
   selector: 'app-block-list',
