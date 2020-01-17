@@ -1,6 +1,6 @@
 # Blockser
 
-Angular Application that displays last 10 Blocks in Sweden EOS Endpoint
+Angular Application that displays last 10 Blocks in Sweden EOS Endpoint available [here](https://blockser.herokuapp.com/blocks).
 
 ## Development server
 
